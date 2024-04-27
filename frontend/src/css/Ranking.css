@@ -1,0 +1,201 @@
+.my-position {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 150px;
+}
+
+.label-filter {
+  white-space: nowrap;
+  display: flex;
+  align-self: center;
+  margin: 0 15px 0 0;
+}
+
+/* .col-sm-5{
+  display: flex;
+  align-items: center;
+} */
+.col-sm-7 {
+  display: flex;
+  align-items: center;
+}
+
+/* .row{
+  display: flex;
+  align-items: center;
+} */
+
+.texto-pagina {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+  font-weight: bold;
+}
+.page-change-buttons {
+  display: flex;
+  justify-content: center;
+}
+.btn-primary {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.goldCell {
+  color: gold;
+  margin-right: 10px;
+  font-size: 25px;
+}
+.silverCell {
+  color: silver;
+  margin-right: 10px;
+  font-size: 25px;
+}
+.bronzeCell {
+  color: #cd7f32;
+  margin-right: 10px;
+  font-size: 25px;
+}
+.container-ranking {
+  margin: 1em 4em 4em;
+  background-color: green;
+}
+
+.container-ranking .table-responsive {
+  margin: 30px 0;
+}
+.container-ranking .table-responsive .table-wrapper-ranking {
+  min-width: 1000px;
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+.container-ranking
+  .table-responsive
+  .table-wrapper-ranking
+  .table-title-ranking
+  .btn {
+  font-size: 13px;
+  border: none;
+}
+.container-ranking
+  .table-responsive
+  .table-wrapper-ranking
+  .table-title-ranking
+  .btn
+  i {
+  float: left;
+  font-size: 21px;
+  margin-right: 5px;
+}
+.container-ranking
+  .table-responsive
+  .table-wrapper-ranking
+  .table-title-ranking
+  .btn
+  span {
+  float: left;
+  margin-top: 2px;
+}
+.container-ranking
+  .table-responsive
+  .table-wrapper-ranking
+  .table-title-ranking {
+  color: #fff;
+  background: linear-gradient(45deg, #390dad, #8d07af);
+  /* #5044B8 */
+  /*background: #882f27;*/
+  padding: 16px 25px;
+  margin: -20px -25px 10px;
+  border-radius: 3px 3px 0 0;
+}
+.container-ranking
+  .table-responsive
+  .table-wrapper-ranking
+  .table-title-ranking
+  h2 {
+  margin: 5px 0 0;
+  font-size: 24px;
+}
+
+.container-ranking
+  .table-responsive
+  .table-wrapper-ranking
+  .table-title-ranking
+  .toolbar {
+  display: flex;
+  justify-content: space-around;
+  width: 16em;
+}
+
+.container-ranking
+  .table-responsive
+  .table-wrapper-ranking
+  .table-title-ranking
+  .toolbar
+  .newconcept {
+  background: #fff;
+  color: #28a745;
+  transition: 0.15s ease-in-out;
+}
+
+.container-ranking
+  .table-responsive
+  .table-wrapper-ranking
+  .table-title-ranking
+  .toolbar
+  .neworder {
+  background: #b0c4de;
+  color: #191970;
+  transition: 0.15s ease-in-out;
+}
+.container-ranking
+  .table-responsive
+  .table-wrapper-ranking
+  .table-title-ranking
+  .toolbar
+  .newconcept:hover {
+  opacity: 0.7;
+}
+
+.body-table-log {
+  overflow-x: auto;
+}
+
+table.table-question-manager {
+  text-align: center;
+}
+
+table.table-question-manager tr th,
+table.table-question-manager tr td {
+  border-color: #e9e9e9;
+  /*padding: 12px 15px;*/
+  vertical-align: middle;
+}
+
+table.table-question-manager.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #fcfcfc;
+}
+table.table-question-manager.table-striped.table-hover tbody tr:hover {
+  background: #f5f5f5;
+}
+
+.container-ranking div table tbody tr td button,
+.container-ranking div table tbody tr td button:focus,
+.container-ranking div table tbody tr td button:active {
+  border: none;
+  background: transparent;
+  outline: 0;
+}
+
+.container-ranking div table tbody tr td button svg {
+  color: rgb(0, 123, 255);
+}
+
+.container-ranking div table tbody tr td button svg:hover {
+  color: rgb(0, 86, 179);
+}

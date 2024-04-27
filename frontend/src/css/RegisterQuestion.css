@@ -1,0 +1,128 @@
+.campo-obrigatorio {
+  color: red;
+}
+
+.text-muted {
+  text-align: end;
+}
+
+.form-question {
+  background-color: #ffffff;
+  color: inherit;
+  padding: 30px 50px;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0;
+  border-radius: 0.25rem;
+}
+
+.form-question .controls {
+  margin-top: 20px;
+}
+.question-hero.question-prof {
+  background: linear-gradient(90deg, #295d53, #1b8b90);
+  padding: 3rem 2rem;
+  min-height: 320px;
+}
+
+.question-hero.question-info-prof {
+  background: linear-gradient(90deg, #295d53, #1b8b90);
+}
+.table-cad-quest {
+  text-align: center;
+  font: -webkit-control;
+}
+
+.row-control,
+.row-case {
+  padding: 0px !important;
+}
+
+.rowTesteCaseAux {
+  background: #c9f3c9;
+}
+
+.row-control textarea {
+  background: transparent;
+  border-color: #91b991;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  min-width: 100%;
+  resize: none;
+}
+
+.row-control textarea:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.row-case textarea {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  min-width: 100%;
+  border: none;
+  outline: 0;
+  resize: none;
+}
+
+#label-frmquest-testcase-group {
+  display: block;
+}
+
+#input-frmquest-testcase-group {
+  display: inline-flex;
+  overflow-y: hidden;
+}
+
+#input-frmquest-testcase-group table {
+  margin: 0;
+}
+
+#input-frmquest-testcase-group button {
+  display: table-row;
+  width: auto;
+  margin: 0;
+  height: 39px;
+  margin-top: auto;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+#input-frmquest-testcase-group button:active {
+  outline: none;
+  border: none;
+}
+
+#input-frmquest-testcase-group button:focus {
+  outline: 0;
+}
+
+#input-frmquest-testcase-group button svg {
+  font-size: 2.5em;
+  color: green;
+}
+
+#input-frmquest-testcase-group button svg:hover {
+  color: #54c154;
+}
+
+#input-frmquest-testcase-group button svg:active {
+  color: #034e03;
+}
+
+.register-quest-footer {
+  padding-top: 2em;
+}
+
+.table-cad-quest thead {
+  background-color: #eeeeee;
+}
+
+#input-frmquest-fileupload {
+  width: auto;
+}

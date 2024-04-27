@@ -1,0 +1,69 @@
+@import url("cardGlobal.css");
+
+.card-pratique {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #e3eaed;
+  border-radius: 5px;
+  margin: 0.5rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(120, 120, 120, 0.85);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(120, 120, 120, 0.85);
+  box-shadow: 0px 1px 1px 0px rgba(120, 120, 120, 0.85);
+}
+
+.card-pratique .card-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+.card-pratique .card-text p {
+  -webkit-font-smoothing: antialiased;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  color: #02224b;
+  margin: 0px 10px 0px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 1.25;
+  font-weight: 800;
+  white-space: initial;
+}
+
+.card-pratique .card-text h3 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  color: rgb(5, 25, 45);
+  opacity: 0.4;
+
+  -webkit-font-smoothing: antialiased;
+
+  font-family: Arial, sans-serif;
+}
+
+.card-icon a {
+  text-align: center;
+  float: left;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  margin-left: 15px;
+  margin-right: 15px; /*space between*/
+  background-color: #ffb15d;
+  color: #02224b;
+  font-size: 44px;
+}

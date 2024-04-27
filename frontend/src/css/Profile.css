@@ -1,0 +1,221 @@
+
+.btn-cosmo-color-1{
+    position: relative;
+    top: -2.3em;
+    left: 80%;
+    color:#fff;
+    background-color:#105469;
+    border-color:#1cb0f6
+}
+
+.btn-cosmo-color-1:hover{
+    color:#fff;
+    background-color:#099de3;
+    border-color:#0994d6
+}
+    
+.btn-cosmo-color-1:focus{
+    box-shadow:0 0 0 .2rem rgba(62,188,247,.5)
+}
+.btn-cosmo-color-1.disabled,.btn-cosmo-color-1:disabled{
+    color:#fff;background-color:#1cb0f6;border-color:#1cb0f6
+}
+.btn-cosmo-color-1:not(:disabled):not(.disabled).active,.btn-cosmo-color-1:not(:disabled):not(.disabled):active,.show>.btn-cosmo-color-1.dropdown-toggle{
+    color:#fff;background-color:#0994d6;border-color:#088cca
+}
+.btn-cosmo-color-1:not(:disabled):not(.disabled).active:focus,.btn-cosmo-color-1:not(:disabled):not(.disabled):active:focus,.show>.btn-cosmo-color-1.dropdown-toggle:focus{
+    box-shadow:0 0 0 .2rem rgba(62,188,247,.5)
+}
+.btn-cosmo-color-2{
+    color:#fff;background-color:#13315c;border-color:#13315c
+}
+.btn-cosmo-color-2:hover{
+    color:#fff;background-color:#0c203c;border-color:#0a1a32
+}
+.btn-cosmo-color-2.focus,.btn-cosmo-color-2:focus{
+    box-shadow:0 0 0 .2rem rgba(54,80,116,.5)
+}
+.btn-cosmo-color-2.disabled,.btn-cosmo-color-2:disabled{
+    color:#fff;background-color:#13315c;border-color:#13315c
+}
+.btn-cosmo-color-2:not(:disabled):not(.disabled).active,.btn-cosmo-color-2:not(:disabled):not(.disabled):active,.show>.btn-cosmo-color-2.dropdown-toggle{
+    color:#fff;background-color:#0a1a32;border-color:#081527
+}
+.btn-cosmo-color-2:not(:disabled):not(.disabled).active:focus,.btn-cosmo-color-2:not(:disabled):not(.disabled):active:focus,.show>.btn-cosmo-color-2.dropdown-toggle:focus{
+    box-shadow:0 0 0 .2rem rgba(54,80,116,.5)
+}
+
+
+.text-cosmo-color-1{
+    color:#105469!important
+}
+
+
+.main-profile-raised {
+    margin: 14em 5em 5em;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+.main-profile {
+    background: #FFF;
+    position: relative;
+    z-index: 3;
+}
+
+
+.profile .avatar .img-raised {
+    box-shadow: 0 5px 15px -8px rgba(0,0,0,.24), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+.profile .avatar .rounded-circle {
+    border-radius: 50%!important;
+}
+
+.profile .avatar{
+    width: 13em;
+    margin: auto;
+    top: -90px;
+    position: relative;
+}
+
+
+.avatar .img-fluid{
+    max-width: 100%;
+    width: 300px;
+    height: 210px;
+    border:1px solid #000;
+}
+
+
+.header-profile{
+    height: 180px;
+}
+
+.body-profile{
+    padding: 30px;
+}
+
+#btn-update-profile:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+
+.progress .progress-bar{
+	background-color: #55f495;
+	-webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: 800;
+	color: #02224b;
+}
+
+.progress{
+	color: #02224b;
+}
+
+.xp-atual > span, .p-1 > span{
+    font-weight: 700;
+}
+
+.dados-gerais {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-data {
+    justify-content: center;
+}
+
+.imgGray {
+    filter: grayscale(100%);
+}
+
+.achDesc {
+    width: 100%;
+    text-align: center;
+    /*height: 50px;*/
+    overflow-y: scroll;
+}
+
+/*.achDesc:hover {
+    display:none;
+}*/
+
+.individual-achievement .progress {
+    position: relative;
+}
+  
+.individual-achievement .progress > .xp {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-weight: 600;
+}
+
+.achievements > .center {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    width: 520px;
+}
+
+.achievements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: start;
+    padding: 5px 0px;
+    margin: 0px 10px;
+}
+
+.individual-achievement:hover {
+    height: 300px;
+}
+
+.individual-achievement {
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 5px;
+    margin: 5px;
+    width: 250px;
+    background-color: #02224b;
+    border-radius: 5px;
+    height: 100px;
+    transition: height .25s;
+}
+
+.progressEncap > span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.individual-achievement > .props > span,  .individual-achievement > .progressEncap > span {
+    font-weight: 600;
+}
+
+.individual-achievement > .props {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.props > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1060px) {
+    .achievements > .center {
+        width: 250px;
+    }
+}

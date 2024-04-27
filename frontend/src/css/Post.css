@@ -1,0 +1,14 @@
+.container {
+  margin-top: 5%;
+  padding-left: 20px;
+}
+.card-body {
+  box-shadow: 0px 15px 10px -15px rgb(68, 67, 67);
+}
+.btn:hover {
+  background-color: rgb(25, 69, 86);
+}
+
+.wrap {
+  flex-wrap: wrap;
+}

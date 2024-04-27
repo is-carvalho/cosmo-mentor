@@ -1,0 +1,100 @@
+.link-cadastro {
+  margin-left: 5px;
+  outline: none;
+}
+.main-login .container {
+  /*height: 70vh;*/
+  align-content: center;
+  color: white;
+}
+
+.d-flex .justify-content-center .h-100 .align-items-center {
+  justify-content: center;
+}
+
+.login-body {
+  height: 355px;
+  margin-top: auto;
+  margin-bottom: 0;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  display: flex;
+  align-items: center;
+}
+
+.login-body .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-body .card-header h2 {
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.login-body .card-header {
+  padding: 1.25rem;
+}
+
+.login-body .card-header .imagem {
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.form-login .form-group .input-group-prepend span {
+  /* width: 50px; */
+  /* background-color: #567ca7; */
+  background-color: white;
+  color: black;
+  border: 0 !important;
+}
+
+.form-login .form-group input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.login_btn {
+  color: black;
+  background-color: #567ca7;
+  margin: 5% 0;
+  width: 100px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.login-body .card-footer .links {
+  color: white;
+}
+
+/*ADICIONAR NO STYLE DO INDEX*/
+.fundo-bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1920px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: absolute) {
+  /* Specific to this particular image */
+  .fundo-bg {
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+}

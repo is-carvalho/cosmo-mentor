@@ -1,0 +1,32 @@
+#input-frmquest-testcase-group button {
+  display: table-row;
+  width: auto;
+  margin: 0;
+  height: 39px;
+  margin-top: auto;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+#input-frmquest-testcase-group button:active {
+  outline: none;
+  border: none;
+}
+
+#input-frmquest-testcase-group button:focus {
+  outline: 0;
+}
+
+#input-frmquest-testcase-group button svg {
+  font-size: 2.5em;
+  color: green;
+}
+
+#input-frmquest-testcase-group button svg:hover {
+  color: #54c154;
+}
+
+#input-frmquest-testcase-group button svg:active {
+  color: #034e03;
+}

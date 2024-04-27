@@ -1,0 +1,341 @@
+.backside-head,
+.backside-body,
+.backside-footer {
+    padding: 0;
+}
+
+.backside-head {
+    margin-bottom: 10px;
+}
+
+.backside-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    margin: 5px auto;
+    margin-bottom: 15px;
+}
+
+.section-titulo-cursos {
+    text-align: justify;
+    border: 1px solid #108D6F;
+    border-radius: 5px;
+    margin: .5rem;
+
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(120, 120, 120, 0.85);
+	-moz-box-shadow:    0px 1px 1px 0px rgba(120, 120, 120, 0.85);
+	box-shadow:         0px 1px 1px 0px rgba(120, 120, 120, 0.85);	
+	
+    margin-bottom: 0;
+    padding: 30px 100px;
+    color: #FFFFFF;
+    border-radius: 5px;
+		
+background-color: #108D6F;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%230C6852' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%230A5C49'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.section-titulo-turmas {
+    margin-bottom: 0;
+    padding: 0.7rem 2rem;
+    /*padding: 1rem 2rem;*/
+    background-color: #7d2525;
+    color: #eee;
+    border-radius: 0;
+}
+
+
+.fundo-bd-questoes {
+    background: #83c6f3;
+}
+
+.backside-footer .btn-cursos:hover,
+.backside-footer .btn-cursos:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+    color: #FFFFFF;
+}
+
+.backside-footer .btn-primary {
+    color: #fff;
+    border-color: #020202;
+    width: 3em;
+}
+
+.btn-cursos {
+    background-color: #108D6F;
+    border-color: #108D6F;
+    color: #FFFFFF;
+}
+
+.course-icon {
+    z-index: 100;
+	padding: 1.5rem; 
+}
+
+.course-icon a{
+	width: 80px;
+	height: 80px;
+	padding: 0.5rem;
+	border-radius: 100%;
+	background-color: #108D6F;
+	border: solid 1px #108D6F;
+    color: #FFFFFF;
+	font-size: 48px;
+}
+
+
+section {
+    padding: 50px 0;
+}
+
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+	margin: 0.5rem;
+}
+
+.frontside {
+    position: relative;
+    z-index: 2;
+    border-radius: .25rem;
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	width:100%;
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+
+    border: 1px solid #108d6f;
+	color: #108d6f;
+	font-size: 15px;
+	font-weight: 800;
+
+}
+
+.frontside .card,
+.backside .card {
+	height: 250px;
+}
+
+
+.main-cursos .frontside .card .card-title,
+.main-cursos .backside .card .card-title {
+    color: #00707b !important;
+}
+
+.frontside .card .card-body img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+
+/* djefferson */
+
+.explore-topics-skills-title {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    line-height: 32px;
+}
+
+.course-card {
+    background-color: rgba(255, 255, 255, 0.85) !important;
+    border: solid 1px rgba(176, 196, 222, 0.5);
+}
+
+
+.course-img {
+    height: 200px;
+    width: 200px;
+    /*background-color:rgb(16, 85, 104, 0.6)*/
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.course-title {
+    color: #00707b !important;
+}
+
+
+.fundo-register-bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.9
+}
+
+
+
+.frontside .card .card-body .img-grayscale {
+    filter: grayscale(100%);
+}
+
+.frontside .card .card-body .img-nograyscale {
+    filter: grayscale(0%);
+}
+
+.custom-scrollbar-css {
+    height: 155px;
+    overflow-y: scroll;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar {
+    width: 5px;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #00d2ff;
+    background-image: linear-gradient(to top, #d0e2e0 0%, #65a3dd 100%);
+}
+
+.modal-body .fa-door-open {
+    color: #2d3643;
+}
+
+.modal-body .buttons button {
+    width: 5em;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid blue;
+    border-bottom: 16px solid blue;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.passwordClassUser {
+    width: 22.8em;
+    margin: auto;
+    margin-top: 20px;
+}
+
+@media (max-width: 944px) {
+    .main_container > .container-fluid > .row > .col > section > .row > .col-4 {
+        flex-basis: 250px;
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 690px) {
+    .section-titulo-cursos {
+        padding: 30px 50px;
+    }
+}
+
+@media (max-width: 590px) {
+    .section-titulo-cursos {
+        padding: 30px 25px;
+    }
+}
+
+@media (max-width: 426px) {
+    .section-titulo-cursos {
+        padding: 30px 10px;
+        text-align: center;
+    }
+
+    .main_container > .container-fluid > .row > .col > section > .row {
+        justify-content: center;
+    }
+}

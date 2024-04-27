@@ -1,0 +1,24 @@
+li .p-1 span svg, li .p-1 span, li .p-1 {
+  color: white;
+}
+
+li .p-1 svg path {
+  color: white;
+}
+
+.p-1 .progress {
+  position: relative;
+}
+
+.backgrnd {
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+.p-1 .progress > .xp {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-weight: 600;
+}

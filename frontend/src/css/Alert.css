@@ -1,0 +1,68 @@
+.modal-alert .modal-dialog {
+  width: auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.modal-alert .modal-dialog .modal-content {
+  background: #282c33ed;
+}
+
+.modal-alert .modal-dialog .modal-content .modal-header {
+  border: none;
+  color: rgb(231, 231, 231);
+  padding: 0.5rem 1rem;
+}
+
+.modal-alert .modal-dialog .modal-content .modal-header button,
+.modal-alert .modal-dialog .modal-content .modal-header button:focus {
+  border: none;
+  outline: 0;
+}
+
+.modal-alert-backdrop {
+  background-color: transparent;
+}
+
+@keyframes bubbleIn {
+  from {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-alert {
+  -webkit-animation-name: bubbleIn;
+  animation-name: bubbleIn;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.alert-msg {
+  margin: auto;
+}
+
+.alert-icon:before {
+  font-family: "Font Awesome\ 5 Free";
+  font-weight: 900;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.error .alert-icon:before {
+  content: "\f00d";
+  color: red;
+}
+
+.success .alert-icon:before {
+  content: "\f058";
+  color: green;
+}

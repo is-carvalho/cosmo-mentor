@@ -1,0 +1,220 @@
+@import url("cardGlobal.css");
+
+.card-aprenda {
+    border: 1px solid #e3eaed;
+    border-radius: 5px;
+    margin: .5rem;
+    padding: 0rem .5rem;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    object-fit: contain;
+	
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(120, 120, 120, 0.85);
+	-moz-box-shadow:    0px 1px 1px 0px rgba(120, 120, 120, 0.85);
+	box-shadow:         0px 1px 1px 0px rgba(120, 120, 120, 0.85);
+}
+
+.card-aprenda-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .3rem .1rem;
+    border-bottom: solid 1px #DDDDDD;
+}
+
+.card-aprenda-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .3rem .1rem;
+}
+
+
+.card-aprenda-top > .btn-continuar {
+    width: 21rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #02224b;
+    box-sizing: border-box;
+    background-color: #55f495;
+    cursor: pointer;
+    padding: .25rem;
+    margin: 0rem .25rem;
+    height: 3rem;
+    border-radius: 5px;
+    text-align: center;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 600;
+}
+
+.card-aprenda-bottom > .btn-avaliar {
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #02224b;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    padding: .25rem;
+    margin: 0rem .25rem;
+    height: 3rem;
+	border: solid 2px #02224b;
+    border-radius: 5px;
+    text-align: center;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 600;
+}
+
+.card-aprenda .aprenda-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px 4px;
+    width: 100%;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+.cd_title {
+	-webkit-font-smoothing: antialiased;
+    color: rgb(5, 25, 45);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
+.cd_subtitle {
+	-webkit-font-smoothing: antialiased;
+    color: rgb(5, 25, 45);
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.card-aprenda .aprenda-titulo h3{
+    font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: 600;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: uppercase;
+    color: rgb(5, 25, 45);
+    opacity: 0.4;
+	
+	-webkit-font-smoothing: antialiased;
+
+    font-family: Arial, sans-serif;
+
+}
+
+.card-aprenda .aprenda-titulo p{
+	-webkit-font-smoothing: antialiased;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    color: #02224b;
+    margin: 0px 10px 0px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.25;
+    font-weight: 800;
+    white-space: initial;
+}
+
+.card-aprenda .aprenda-titulo .progress .progress-bar{
+	background-color: #55f495;
+	-webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: 800;
+	color: #02224b;
+}
+
+.card-aprenda .aprenda-titulo .progress{
+	color: #02224b;
+}
+
+.card-aprenda .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+.card-aprenda .card-text p {
+    font-size: 1.07rem;
+}
+
+
+
+.aprenda-icon a{
+    text-align: center;
+	float: left;
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	margin-left: 25px;
+	margin-right: 25px; /*space between*/
+	background-color: #55f495;
+	color: #02224b;
+	font-size: 50px;
+
+}
+
+.aprenda-icon a i{
+	font-size: 30px;
+	color: #909090;
+}
+
+@media (max-width: 782px) {
+    .card-aprenda .aprenda-titulo p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 525px) {
+    .card-aprenda .aprenda-titulo {
+        height: 120px;
+    }
+
+    .card-aprenda .aprenda-titulo > h3 {
+        font-size: 12px;
+    }
+
+    .card-aprenda-top > .btn-continuar {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .card-aprenda .card-text p {
+        font-size: .95rem;
+    }
+
+    .card-aprenda .aprenda-icon a {
+        /*width: 60px;
+        height: 60px;
+        font-size: 40px;*/
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 437px) {
+    .card-aprenda .aprenda-icon a {
+        width: 60px;
+        height: 60px;
+        font-size: 40px;
+    }
+
+    .card-aprenda .card-text p {
+        font-size: .85rem;
+    }
+}

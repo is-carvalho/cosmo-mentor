@@ -1,0 +1,55 @@
+.main-register{
+    height: 100vh;
+    align-content: center
+}
+.register-body{
+    color: rgb(228, 242, 255);
+    margin: 40px 40px 20px;
+    width: 700px;
+    background-color: rgba(0,0,0,0.6) !important;
+    border: solid 1px rgba(176, 196, 222, 0.5);
+}
+
+.register-body .card-header{
+    padding: 1.5rem 1.25rem 0;
+}
+
+.btn-cadastrar-color-1{
+    color:#fff;
+    background-color:#099de3;
+    border-color:#099de3;
+    width: 150px;
+}
+.btn-cadastrar-color-1:hover{
+    color:#fff;
+    background-color: #1cf670;
+    border-color:#1cf670
+}
+
+.btn-voltar-color-1{
+    color:#fff;
+    background-color:#099de3;
+    border-color:#099de3;
+    width: 100px;
+}
+.btn-voltar-color-1:hover{
+    color:#fff;
+    background-color:#1ce8f6;
+    border-color:#1ce8f6
+}
+
+.fundo-register-bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+    
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
