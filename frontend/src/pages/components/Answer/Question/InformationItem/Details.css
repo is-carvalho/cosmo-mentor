@@ -1,0 +1,164 @@
+/*#problem-name{
+	margin-top: 0px;
+}
+#problem-tags{
+	font-size: 11px;
+}
+#problem-body h3{
+	font-size: 20px;
+}
+#problem-body pre{
+	padding: 10px;
+	margin: 20px 0;
+	border: 1px solid #eee;
+	border-left-width: 5px;
+	border-radius: 3px;
+	border-left-color: #5bc0de;
+	background: 0px;
+	font-size: 11px;
+}
+
+#problem-body pre ul{
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 5px;
+}
+
+#problem-btn-submit, .btn-sign-up, .btn-save-profile {
+	box-shadow: 0 0 5px #337ab7;
+	
+}
+#problem-btn-submit:hover, .btn-sign-up:hover, .btn-save-profile:hover {
+	box-shadow: 0 0 10px #337ab7;
+}
+
+*/
+.problem {
+  /*   clear: both;*/
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.problem h3 {
+  font-size: 20px;
+}
+
+.problem pre {
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #5bc0de;
+  background: 0px;
+  font-size: 11px;
+}
+
+.problem .problem-title {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #ffffff;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 4px 0 0;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 15px 90px 8px 15px;
+  min-height: 48px;
+  position: relative;
+
+  -webkit-border-top-right-radius: 0.25rem !important;
+  -webkit-border-top-left-radius: 0.25rem !important;
+  -moz-border-radius-topright: 0.25rem !important;
+  -moz-border-radius-topleft: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
+  border-top-left-radius: 0.25rem !important;
+}
+
+.problem .problem-footer {
+  background-color: #ffffff;
+  min-height: 8px;
+
+  border-color: #f0f3f5;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0;
+
+  -webkit-border-bottom-right-radius: 0.25rem !important;
+  -webkit-border-bottom-left-radius: 0.25rem !important;
+  -moz-border-radius-bottomright: 0.25rem !important;
+  -moz-border-radius-bottomleft: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+}
+
+.problem .problem-content {
+  background-color: #ffffff;
+  color: inherit;
+  display: flex;
+  padding: 15px 20px 20px 20px;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0;
+  -webkit-border-bottom-right-radius: 0.25rem !important;
+  -webkit-border-bottom-left-radius: 0.25rem !important;
+  -moz-border-radius-bottomright: 0.25rem !important;
+  -moz-border-radius-bottomleft: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+}
+
+.problem .problem-content .problem-content-column1 .problem-enunciado {
+  font-size: 18px;
+}
+
+.problem .problem-content .problem-content-column1 {
+  padding: 0 20px 5px 0;
+  width: 50%;
+}
+
+.problem .problem-content .problem-content-column2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.problem .problem-content .problem-content-column2 .table {
+  display: inline-table;
+  width: 99%;
+}
+
+.problem .problem-content .problem-content-column2 .table thead th {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  width: 50%;
+}
+
+.problem .problem-content .problem-content-column2 table tbody td ul {
+  padding: 0 !important;
+}
+
+.problem .problem-content .problem-content-column2 table tbody .list-2 {
+  border-left: 1px solid #dfdfdf;
+}
+
+.problem .problem-content .problem-content-column2 table tr {
+  height: auto;
+}
+
+.problem .problem-content .problem-content-column2 table th {
+  border-color: #003a59;
+  border-width: 0.1em;
+}
+
+.problem .problem-content .problem-content-column2 table tr td {
+  white-space: pre;
+  padding: 0.2em;
+  padding-left: 0.4em;
+}
